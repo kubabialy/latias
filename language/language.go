@@ -45,7 +45,7 @@ func SelectRandomLanguage() Language {
         Python,
     }
 
-    // Ditto have to initalize the global Source used by rand.Intn() and other functions of the rand package.
+    // Latias have to initalize the global Source used by rand.Intn() and other functions of the rand package.
     rand.Seed(time.Now().Unix())
     ridx := rand.Intn(len(l))
 
